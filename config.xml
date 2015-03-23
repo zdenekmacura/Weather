@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "cz.zenyprotinasilnikum.vytky"
+        versionCode = "52" 
+        version     = "2.2.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Stop Domestic Violence</name>
+
+    <description>
+        Stop Domectic Violence - application which should help the victims of the domestic violence to understand and resist the various types of violence 
+    </description>
+
+    <author href="http://www.zenyprotinasilnikum.cz" email="zdenek.macura@email.cz">
+        Zdenek Macura
+    </author>
+    <gap:plugin name="org.apache.cordova.contacts" version="0.2.13" />
+    <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.0" />
+    <content src="index.html" />
+
+    <icon src="res/icon.png" />
+    <platform name="android">
+    <splash src="res/android/splash/hdpi.png" density="port-hdpi"/>
+    <splash src="res/android/splash/ldpi.png" density="port-ldpi"/>
+    <splash src="res/android/splash/mdpi.png" density="port-mdpi"/>
+    <splash src="res/android/splash/xhdpi.png" density="port-xhdpi"/>
+    <icon src="res/android/ldpi.png" density="ldpi" />
+    <icon src="res/android/mdpi.png" density="mdpi" />
+    <icon src="res/android/hdpi.png" density="hdpi" />
+    <icon src="res/android/xhdpi.png" density="xhdpi" />
+    </platform>
+
+</widget>

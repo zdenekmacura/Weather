@@ -1,0 +1,41 @@
+.ScrollView {
+	background-color: lightsteelblue;
+	display: block;
+	padding: 2px;
+	font-family: sans-serif;
+}
+
+.LinearLayout {
+	background-color: green;
+	border: 0px solid black;
+	display: block;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 10.0px 10.0px 10.0px 10.0px;
+
+}
+
+#desc {
+	border: 1px solid red;
+	font-size: 18px;
+	display: none;
+	background-color: lightsteelblue;
+	height: 40px;
+	margin: 3px;
+	padding: 3px;
+	border-radius: 10.0px 10.0px 10.0px 10.0px;
+
+}
+
+.TextViewBigger {
+    background-color: chartreuse;
+	color:red;
+	font-weight: bold;
+	display: block;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10.0px 10.0px 10.0px 10.0px;
+	border: 1px solid red;
+	font-size: 30px;
+	text-align: center;
+}
