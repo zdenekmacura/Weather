@@ -16,8 +16,6 @@
     <author href="http://www.zenyprotinasilnikum.cz" email="zdenek.macura@email.cz">
         Zdenek Macura
     </author>
-    <gap:plugin name="org.apache.cordova.contacts" version="0.2.13" />
-    <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.0" />
     <gap:plugin name="org.apache.cordova.geolocation" version="0.3.2" />
     <content src="index.html" />
 
