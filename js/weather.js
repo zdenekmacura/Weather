@@ -13,11 +13,11 @@ $(document).ready(function(){
                             'Speed: '              + position.coords.speed                 + '<br />' +
                             'Timestamp: '          + position.timestamp                    + '<br />';
 
-    }*/
+    }
 	$.getJSON('http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139', function(jd) {
 			 $('#stage').html('<p> Current weather is:<b>' + jd.weather[0].description + ' </b></p>');
              $('#stage2').html('<p> Image: <img src="http://openweathermap.org/img/w/' + jd.weather[0].icon + '.png"></p>');
-          });
+          });*/
 
 
 });
